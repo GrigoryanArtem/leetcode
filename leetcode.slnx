@@ -1,1 +1,9 @@
-<Solution />
+<Solution>
+  <Folder Name="/Meta/">
+    <File Path=".gitattributes" />
+    <File Path=".gitignore" />
+    <File Path="LICENSE.txt" />
+  </Folder>
+  <Project Path="Solutions/Solutions.csproj" />
+  <Project Path="Tests/Tests.csproj" />
+</Solution>
