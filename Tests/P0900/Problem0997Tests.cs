@@ -1,12 +1,11 @@
-﻿using FluentAssertions;
-using Solutions.P0900;
-using Tests.Extensions;
+﻿using Solutions.P0900;
 
 namespace Tests.P0900;
 
+[Trait("Problem", "900+")]
 public class Problem0997Tests
 {
-    [Theory]
+    [Theory(DisplayName = "997")]
     [MemberData(nameof(ExamplesMemberData))]
     public void FindJudge_Examples((int n, int[][] thrust, int expected) @case)
     {

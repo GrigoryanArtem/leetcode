@@ -20,6 +20,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Using Include="FluentAssertions" />
+    <Using Include="Tests.Extensions" />
     <Using Include="Xunit" />
   </ItemGroup>
 
