@@ -4,6 +4,7 @@
     <File Path=".gitignore" />
     <File Path="LICENSE.txt" />
   </Folder>
+  <Project Path="Runner/Runner.csproj" Id="fcbac08d-985f-467d-a779-ff0801b1f330" />
   <Project Path="Solutions/Solutions.csproj" />
   <Project Path="Tests/Tests.csproj" />
 </Solution>
