@@ -1,4 +1,6 @@
-﻿namespace Tests.P3100;
+﻿using Solutions.P3100;
+
+namespace Tests.P3100;
 
 [Trait("Problem", "3100+")]
 public class Problem3110Tests
@@ -9,7 +11,7 @@ public class Problem3110Tests
     {
         var problem = new Problem3110();
 
-        var answer = problem.MinOperations
+        var answer = problem.ScoreOfString
         (
             testCase.s
         );
