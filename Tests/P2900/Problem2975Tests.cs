@@ -1,6 +1,6 @@
 ﻿using Solutions.P2900;
 
-namespace Tests.P2975;
+namespace Tests.P2900;
 
 [Trait("Problem", "2900+")]
 public class Problem2975Tests
