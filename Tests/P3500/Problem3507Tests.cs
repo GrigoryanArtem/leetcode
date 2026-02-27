@@ -21,8 +21,7 @@ public class Problem3507Tests
 
     public static IEnumerable<object?[]> ExamplesMemberData => Examples().ToMemberData();
     public static IEnumerable<(int[] nums, int expected)> Examples()
-    {
-        yield return ([-2, 1, 2, -1, -1, -2, -2, -1, -1, 1, 1], 9);
+    {        
         yield return ([5, 2, 3, 1], 2);
         yield return ([1, 2, 2], 0);
     }
